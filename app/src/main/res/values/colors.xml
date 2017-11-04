@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="black">#000000</color>
+    <color name="whilte">#ffffff</color>
+
+    <color name="home_bg">#daf7fc</color>
+    <color name="home_title_bg">#b9f2fd</color>
+    <color name="home_title_bg2">#50b9f2fd</color>
+    <color name="red">#ff0000</color>
+    <color name="title_bg">#0cc4e5</color>
+</resources>

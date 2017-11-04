@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/img_frame_background"
+    android:id="@+id/drawerlayout">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/qq"
+        >
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="300dp"
+            android:id="@+id/showphoto"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="gone"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showphoto2"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:visibility="gone"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <EditText
+            android:id="@+id/wangzhi"
+            android:layout_width="307dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext1"
+            android:hint="请输入网址"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/openRbutton"
+            android:layout_width="50dp"
+            android:layout_height="41dp"
+            android:layout_gravity="right"
+            android:background="@drawable/jiantou" />
+</LinearLayout>
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:id="@+id/vp_content">
+        </android.support.v4.view.ViewPager>
+        <include layout="@layout/activity_bottom"></include>
+    </LinearLayout>
+    <fragment
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:id="@+id/left_menu"
+        android:tag="LEFT"
+        android:layout_gravity="left"
+        android:name="com.example.administrator.uibestpractice.MenuLeftFragment"
+   />
+    <fragment
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/right_memu"
+        android:tag="RIGHT"
+        android:layout_gravity="right"
+        android:name="com.example.administrator.uibestpractice.MenuRightFragment"
+      />
+</android.support.v4.widget.DrawerLayout>

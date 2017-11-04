@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8e0e8"
+    tools:context="com.example.administrator.uibestpractice.MainActivity">
+
+    <include
+        android:id="@+id/liaotian"
+        layout="@layout/liaotiantiao" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.47"
+        android:background="#c4ff"></android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+        android:background="#A2B5CD">
+
+      <EditText
+          android:id="@+id/edit_text"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="请输入消息内容"
+          android:maxLines="2" />
+
+      <Button
+          android:id="@+id/buttonSend"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="发送"
+          android:background="#9370DB" />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="强制下线"
+          android:background="#7CFC00"
+          android:id="@+id/buttonxiaxian"/>
+  </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.uibestpractice.Slidingmenu
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img_frame_background"
+    android:scrollbars="none"
+    android:id="@+id/slidingmenu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/draw_menu_layout"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3130">
+
+</LinearLayout>
+    </LinearLayout>
+</com.example.administrator.uibestpractice.Slidingmenu>
+

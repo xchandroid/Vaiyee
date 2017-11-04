@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.uibestpractice.MyMediaPlayer">
+
+<Button
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:id="@+id/play"
+    android:text="播放"
+    android:background="@drawable/play"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="13dp"
+    android:layout_marginStart="13dp" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/pause"
+        android:text="暂停"
+        android:background="@drawable/pause"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/stop"
+        android:text="停止"
+        android:background="@drawable/stop"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/geming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pause"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:textColor="#859"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/vidioplay"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:text="播放视频"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/play"/>
+
+    <Button
+        android:id="@+id/vidiopause"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/pause"
+        android:layout_alignRight="@+id/pause"
+        android:layout_alignTop="@+id/vidioplay"
+        android:background="@drawable/pause"
+        android:text="暂停视频" />
+
+    <Button
+        android:id="@+id/videoreset"
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/vidiopause"
+        android:background="@drawable/stop"
+        android:text="重新播放" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/vidioplay"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

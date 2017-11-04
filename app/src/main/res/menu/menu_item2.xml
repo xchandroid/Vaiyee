@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="新建数据库"
+    android:id="@+id/shujuku"
+    />
+    <item
+        android:title="添加数据"
+        android:id="@+id/adddate"/>
+    <item
+        android:title="更新数据"
+        android:id="@+id/update" />
+    <item
+        android:title="删除数据"
+        android:id="@+id/delete"/>
+    <item
+        android:title="查询数据"
+        android:id="@+id/search"/>
+    <item
+        android:title="查询第一条数据"
+        android:id="@+id/firstdata"/>
+    <item
+        android:title="查询最后第二条数据"
+        android:id="@+id/seconddata"/>
+</menu>

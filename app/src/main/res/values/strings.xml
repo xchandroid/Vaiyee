@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">我的程序</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="welcome">
+        <item>亲爱的，想死我了,么么哒，(✿◡‿◡)</item>
+        <item>人和猪的区别是：猪一直是猪，人有时候不是人</item>
+        <item>原来只要是分开了的人，无论原来多么熟悉，也会慢慢变成陌生人</item>
+        <item>爱情就像鬼，相信的人多，见到的人少</item>
+        <item>永远有多远，你小子就给我滚多远</item>
+        <item>不是故事的结局不够好，而是我们对故事要求太高</item>
+        <item>不要因为一直的没钱而哭泣，把眼泪留着，以为以后没钱的日子还很长</item>
+        <item>今天，我好累，不想和你聊天</item>
+        <item>不会做饭的段子手不是一个好程序猿</item>
+    </string-array>
+</resources>
